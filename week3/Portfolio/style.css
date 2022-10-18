@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    background: url(https://www.nawpic.com/media/2020/pink-background-nawpic-4.jpg) center fixed ;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+
+#navbar > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    max-width: 170vh;
+    padding: 15px 30px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar li {
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar a:hover:not(.active) {
+    background-color: rgb(194, 40, 9);
+    color: #fff
+}
+
+img {
+    width: 150px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    margin-top: 100px;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.column {
+    float:left;
+    padding:10px
+}
+
+.column.middle {
+    width:50%;
+}
+
+.column.side {
+    width:50%;
+}
+
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#contact, #mail, .attribution {
+    text-align: center;
+    padding-right: 30px;
+} 
+
+.container span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tab3 > ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+.tab3 li {
+    display: inline;
+    padding-left :20px;
+    padding-bottom: 50px;  
+}
+
+#name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(220, 44, 62);
+}
+
+#greetings {
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: rgb(220, 44, 62);
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+      padding: 0;
+    }
+
+    #navbar li {
+      padding-right:5px;
+    }
+
+    #name {
+        margin-top: 20px;
+    }
+
+    #navbar > ul{
+        list-style-type: circle;
+    }
+
+    #navbar a {
+        background-color: #ddd;
+        color: red;
+    }
+
+    .column.side {
+        border: 1px solid red;
+        margin: 10px;
+        width: 300px
+    }
+}
