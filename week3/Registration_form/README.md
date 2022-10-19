@@ -5,7 +5,6 @@ This is a solution to a task given by Zuri's team training where thousands of pe
 ### Built with
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
