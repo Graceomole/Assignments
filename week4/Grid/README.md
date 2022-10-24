@@ -4,6 +4,6 @@ This is a solution to a task given by Zuri's team training.To recreate a design.
 
 ### Built with 
 
-- css customp properties
+- css custom properties
 - Grid layout
 
