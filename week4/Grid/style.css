@@ -47,6 +47,7 @@ div {
   grid-area: b;
   grid-row-start: b;
   grid-column-start: b;
+  grid-column-start: b;
   grid-row-end: b;
   height: 100px;
   grid-column-end: b;
