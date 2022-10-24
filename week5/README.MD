@@ -1,4 +1,4 @@
-#### ZURI'S TEAM - Git and Github
+### ZURI'S TEAM - Git and Github
 
 A task to push all week 3 to week 5 assignments to a github repository called "Assignments".
 
