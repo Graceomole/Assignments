@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a0a0a0;
+    margin: 0px auto 0px;
+    padding-top: 20px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+} 
+
+.box {
+    background-color: #ffffff;
+    width: 25em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container {
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 30px;
+    text-transform: uppercase;
+
+}
+#ins {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#fname, #favcolor, #birthday, #lname, #pnum , #email , #gender{
+    width: 95%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-decoration: solid;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    padding: 20px 100px 20px;
+    text-transform: uppercase;
+    margin: 20px 50px;
+    margin-top: 10px;
+    border-radius:7%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color:purple;
+    color: #ffffff;
+}
+
+.info {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px auto 0px;
+        padding: 100px;
+        background-color: #ffffff;
+        padding-top: 10px;
+    }
+
+    .box {
+        background-color: #ffffff;
+        padding-left: 50px;
+        padding-right: -0px;
+    }
+
+}
